@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassUprising24.API", "MassUprising24.API\MassUprising24.API.csproj", "{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassUprising24.API", "MassUprising24.API\MassUprising24.API.csproj", "{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassUprising24.Domain", "MassUprising24Domain\MassUprising24.Domain.csproj", "{3EAD7213-2E42-46AA-B14B-7460D20F0F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassUprising24.Domain", "MassUprising24Domain\MassUprising24.Domain.csproj", "{3EAD7213-2E42-46AA-B14B-7460D20F0F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassUprising24.DataAccess", "MassUprising24.DataAccess\MassUprising24.DataAccess.csproj", "{2D021D7D-6B37-4DAD-9538-614A58B43B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassUprising24.DataAccess", "MassUprising24.DataAccess\MassUprising24.DataAccess.csproj", "{2D021D7D-6B37-4DAD-9538-614A58B43B09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassUprising24.Web", "MassUprising24.Web\MassUprising24.Web.csproj", "{45250598-EC0A-450C-A2EB-6A17718E7E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassUprising24.CommonComponent", "MassUprising24.CommonComponent\MassUprising24.CommonComponent.csproj", "{1CA6345F-5955-42A2-8AEE-FFA12B886CCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{2D021D7D-6B37-4DAD-9538-614A58B43B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D021D7D-6B37-4DAD-9538-614A58B43B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D021D7D-6B37-4DAD-9538-614A58B43B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45250598-EC0A-450C-A2EB-6A17718E7E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45250598-EC0A-450C-A2EB-6A17718E7E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45250598-EC0A-450C-A2EB-6A17718E7E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45250598-EC0A-450C-A2EB-6A17718E7E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA6345F-5955-42A2-8AEE-FFA12B886CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA6345F-5955-42A2-8AEE-FFA12B886CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA6345F-5955-42A2-8AEE-FFA12B886CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA6345F-5955-42A2-8AEE-FFA12B886CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace MassUprising24.Domain;
+﻿namespace MassUprising24.Domain.Entities;
 
 public class Volunteer
 {

@@ -1,0 +1,104 @@
+﻿@page "/warrior"
+@using MassUprising24.DataAccess.Services
+@using MassUprising24.Web.Model
+@rendermode InteractiveServer   
+@using Microsoft.AspNetCore.Components.Forms
+
+@inject ApiService _apiService;
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="information-tab" data-bs-toggle="tab" data-bs-target="#information" type="button" role="tab" aria-controls="information" aria-selected="true">Information</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="address-tab" data-bs-toggle="tab" data-bs-target="#address" type="button" role="tab" aria-controls="address" aria-selected="false">Address</button>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-content @* fade show active *@" id="information" role="tabpanel" aria-labelledby="information-tabl">
+        <EditForm Model="@warrior" OnInvalidSubmit="@HandleValidSubmit">
+            <DataAnnotationsValidator />
+            @* <ValidationSummary/> *@
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <InputText id="name" class="form-control" @bind-Value="warrior.Name" required />
+                <ValidationMessage For="@(() => warrior.Name)" />
+            </div>
+
+            <div class="form-group">
+                <label for="dataOfBirth">Date of Birth</label>
+                <InputDate id="dob" class="form-control" @bind-Value="warrior.DateOfBirth" required />
+                <ValidationMessage For="@(() => warrior.DateOfBirth)" />
+            </div>
+
+            <div class="form-group">
+                <label for="dod">Date of Death</label>
+                <InputDate id="dod" class="form-control" @bind-Value="warrior.DateOfDeath" />
+                <ValidationMessage For="@(() => warrior.DateOfDeath)" />
+            </div>
+
+            <div class="form-group">
+                <label for="dataOfDeath">Date of Place</label>
+                <InputText id="dop" class="form-control" @bind-Value="warrior.DeathPlace" />
+                <ValidationMessage For="@(() => warrior.DeathPlace)" />
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <InputSelect id="gender" class="form-control" @bind-Value="warrior.Gender">
+                    <option value="">Select Gender</option>
+                    @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                    {
+                        <option value="@gender">@gender</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="@(() => warrior.Gender)" />
+            </div>
+
+            <div class="form-group">
+                <label for="uniqueIdentity">Unique Identity Type</label>
+                <InputSelect id="uniqueIdentity" class="form-control" @bind-Value="warrior.UniqueIdentity">
+                    <option value="">Select Identity</option>
+                    @foreach (var identity in Enum.GetValues(typeof(UniqueIdentity)))
+                    {
+                        <option value="@identity">@identity</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="@(() => warrior.UniqueIdentity)" />
+            </div>
+
+            <div class="form-group">
+                <label for="identityNumber">Identity Number</label>
+
+                <InputText id="identityNumber" class="form-control" @bind-Value="warrior.UniqueId" placeholder="NID or Date of Birth or Passport or Other number" required />
+                <ValidationMessage For="@(() => warrior.UniqueId)" />
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Notes</label>
+                <InputTextArea id="notes" class="form-control" @bind-Value="warrior.Notes" />
+            </div>
+
+
+            <div class="d-flex justify-content-between mt-3">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+
+        </EditForm>
+
+    </div>
+
+</div>
+
+
+@code {
+    private WarriorDTO warrior = new();
+    // private AddressDTO address = new();
+
+    private async Task HandleValidSubmit()
+    {
+        var result = await _apiService.CreateAsync<WarriorDTO>("Warrior", warrior);
+    }
+}

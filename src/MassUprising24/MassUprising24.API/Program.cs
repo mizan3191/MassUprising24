@@ -1,11 +1,18 @@
+using MassUprising24.DataAccess.Extension;
+using MassUprising24.DataAccess.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDataAccess(builder.Configuration);
+//builder.Services.AddDbContext<MassUprising24Context>(option => option.UseSqlServer(connectionString));
+
 
 var app = builder.Build();
 

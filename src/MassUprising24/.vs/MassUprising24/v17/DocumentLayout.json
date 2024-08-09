@@ -1,10 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\MassUprising24Project\\MassUprising24\\src\\MassUprising24\\",
+  "WorkspaceRootPath": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EAD7213-2E42-46AA-B14B-7460D20F0F76}|MassUprising24Domain\\MassUprising24.Domain.csproj|e:\\massuprising24project\\massuprising24\\src\\massuprising24\\massuprising24domain\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EAD7213-2E42-46AA-B14B-7460D20F0F76}|MassUprising24Domain\\MassUprising24.Domain.csproj|solutionrelative:massuprising24domain\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\components\\pages\\createwarrior.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\components\\pages\\createwarrior.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D021D7D-6B37-4DAD-9538-614A58B43B09}|MassUprising24.DataAccess\\MassUprising24.DataAccess.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.dataaccess\\cqrs\\command\\createwarriorcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D021D7D-6B37-4DAD-9538-614A58B43B09}|MassUprising24.DataAccess\\MassUprising24.DataAccess.csproj|solutionrelative:massuprising24.dataaccess\\cqrs\\command\\createwarriorcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D021D7D-6B37-4DAD-9538-614A58B43B09}|MassUprising24.DataAccess\\MassUprising24.DataAccess.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.dataaccess\\cqrs\\command\\createaddresscmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D021D7D-6B37-4DAD-9538-614A58B43B09}|MassUprising24.DataAccess\\MassUprising24.DataAccess.csproj|solutionrelative:massuprising24.dataaccess\\cqrs\\command\\createaddresscmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\model\\warriordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\model\\warriordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D021D7D-6B37-4DAD-9538-614A58B43B09}|MassUprising24.DataAccess\\MassUprising24.DataAccess.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.dataaccess\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D021D7D-6B37-4DAD-9538-614A58B43B09}|MassUprising24.DataAccess\\MassUprising24.DataAccess.csproj|solutionrelative:massuprising24.dataaccess\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\massuprising24.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\massuprising24.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.api\\controllers\\warriorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|solutionrelative:massuprising24.api\\controllers\\warriorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|solutionrelative:massuprising24.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EAD7213-2E42-46AA-B14B-7460D20F0F76}|MassUprising24Domain\\MassUprising24.Domain.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24domain\\entities\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EAD7213-2E42-46AA-B14B-7460D20F0F76}|MassUprising24Domain\\MassUprising24.Domain.csproj|solutionrelative:massuprising24domain\\entities\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\model\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\model\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45250598-EC0A-450C-A2EB-6A17718E7E70}|MassUprising24.Web\\MassUprising24.Web.csproj|solutionrelative:massuprising24.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.api\\model\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|solutionrelative:massuprising24.api\\model\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED97189E-F3B4-42A5-B07E-90FD1F6F10F6}|MassUprising24.API\\MassUprising24.API.csproj|solutionrelative:massuprising24.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EAD7213-2E42-46AA-B14B-7460D20F0F76}|MassUprising24Domain\\MassUprising24.Domain.csproj|d:\\mch\\petproject\\2024\\massuprising24\\src\\massuprising24\\massuprising24domain\\entities\\volunteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EAD7213-2E42-46AA-B14B-7460D20F0F76}|MassUprising24Domain\\MassUprising24.Domain.csproj|solutionrelative:massuprising24domain\\entities\\volunteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +78,222 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateWarriorCmd.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.DataAccess\\CQRS\\Command\\CreateWarriorCmd.cs",
+              "RelativeDocumentMoniker": "MassUprising24.DataAccess\\CQRS\\Command\\CreateWarriorCmd.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.DataAccess\\CQRS\\Command\\CreateWarriorCmd.cs",
+              "RelativeToolTip": "MassUprising24.DataAccess\\CQRS\\Command\\CreateWarriorCmd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T06:50:58.758Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAddressCmd.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.DataAccess\\CQRS\\Command\\CreateAddressCmd.cs",
+              "RelativeDocumentMoniker": "MassUprising24.DataAccess\\CQRS\\Command\\CreateAddressCmd.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.DataAccess\\CQRS\\Command\\CreateAddressCmd.cs",
+              "RelativeToolTip": "MassUprising24.DataAccess\\CQRS\\Command\\CreateAddressCmd.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:58:13.415Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\Model\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "MassUprising24.API\\Model\\ApiResponse.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\Model\\ApiResponse.cs",
+              "RelativeToolTip": "MassUprising24.API\\Model\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:12:24.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Model\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\Model\\AddressDTO.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Model\\AddressDTO.cs",
+              "RelativeToolTip": "MassUprising24.Web\\Model\\AddressDTO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:25:39.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MassUprising24.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T10:34:20.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarriorDTO.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Model\\WarriorDTO.cs",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\Model\\WarriorDTO.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Model\\WarriorDTO.cs",
+              "RelativeToolTip": "MassUprising24.Web\\Model\\WarriorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:23:30.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MassUprising24.API\\appsettings.json",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\appsettings.json",
+              "RelativeToolTip": "MassUprising24.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T18:50:25.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\Program.cs",
+              "RelativeDocumentMoniker": "MassUprising24.API\\Program.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\Program.cs",
+              "RelativeToolTip": "MassUprising24.API\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:49:35.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.DataAccess\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "MassUprising24.DataAccess\\Services\\ApiService.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.DataAccess\\Services\\ApiService.cs",
+              "RelativeToolTip": "MassUprising24.DataAccess\\Services\\ApiService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwCYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T09:44:05.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MassUprising24.Web",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\MassUprising24.Web.csproj",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\MassUprising24.Web.csproj",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\MassUprising24.Web.csproj",
+              "RelativeToolTip": "MassUprising24.Web\\MassUprising24.Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-09T14:54:26.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Warrior.cs",
-              "DocumentMoniker": "E:\\MassUprising24Project\\MassUprising24\\src\\MassUprising24\\MassUprising24Domain\\Warrior.cs",
-              "RelativeDocumentMoniker": "MassUprising24Domain\\Warrior.cs",
-              "ToolTip": "E:\\MassUprising24Project\\MassUprising24\\src\\MassUprising24\\MassUprising24Domain\\Warrior.cs",
-              "RelativeToolTip": "MassUprising24Domain\\Warrior.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T16:05:55.805Z",
+              "Title": "CreateWarrior.razor",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Components\\Pages\\CreateWarrior.razor",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\Components\\Pages\\CreateWarrior.razor",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Components\\Pages\\CreateWarrior.razor",
+              "RelativeToolTip": "MassUprising24.Web\\Components\\Pages\\CreateWarrior.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T10:28:43.648Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Program.cs",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\Program.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Program.cs",
+              "RelativeToolTip": "MassUprising24.Web\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T09:21:02.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Volunteer.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24Domain\\Entities\\Volunteer.cs",
+              "RelativeDocumentMoniker": "MassUprising24Domain\\Entities\\Volunteer.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24Domain\\Entities\\Volunteer.cs",
+              "RelativeToolTip": "MassUprising24Domain\\Entities\\Volunteer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:56:45.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24Domain\\Entities\\Warrior.cs",
+              "RelativeDocumentMoniker": "MassUprising24Domain\\Entities\\Warrior.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24Domain\\Entities\\Warrior.cs",
+              "RelativeToolTip": "MassUprising24Domain\\Entities\\Warrior.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAywCwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:11:02.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WarriorController.cs",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\Controllers\\WarriorController.cs",
+              "RelativeDocumentMoniker": "MassUprising24.API\\Controllers\\WarriorController.cs",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.API\\Controllers\\WarriorController.cs",
+              "RelativeToolTip": "MassUprising24.API\\Controllers\\WarriorController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIA8wBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:19:11.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MassUprising24.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T10:46:25.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "MassUprising24.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "D:\\MCH\\PetProject\\2024\\MassUprising24\\src\\MassUprising24\\MassUprising24.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "MassUprising24.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-08T10:47:05.142Z"
             }
           ]
         }
